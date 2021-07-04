@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MovieDB | Home</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <form action="#" method="post" class="myform">
+            <div class="w-125 p-3">
+              <label for="example1" class="form-label">Title</label>
+              <input type="text" class="form-control" id="example1" aria-describedby="example1help" name="movietitle">
+              <div id="example1help" class="form-text">Enter Movie Title</div>
+            </div>
+            <div class="w-125 p-3">
+              <label for="example2" class="form-label">Year</label>
+              <input type="text" class="form-control" id="example2" aria-describedby="example2help"name="movieyear">
+              <div id="example2help" class="form-text">Enter Year (Optional)</div>
+            </div>
+            <div class="text-center">
+            <button type="submit" value="submit" class="btn btn-primary">Submit</button>
+        </div>
+          </form>
+    </body>
+    <footer>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p class="footer-heart">
+    Made with <g-emoji class="g-emoji" alias="heart" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png">
+  <img class="emoji" alt="heart" height="20" width="20" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png"></g-emoji> by parnex
+  </p>
+  </footer>
+</html>
